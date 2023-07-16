@@ -13,15 +13,15 @@ const database = {
   ],
   villains: [
     {
-        id: 1,
-        name: "Voldemort",
-        power: "Magic"
-    }
+      id: 1,
+      name: "Voldemort",
+      power: "Magic",
+    },
     {
-        id: 2,
-        name: "Bowser",
-        power: "Shells"
-    }
+      id: 2,
+      name: "Bowser",
+      power: "Shells",
+    },
   ],
 };
 
@@ -30,5 +30,5 @@ export const getHeroes = () => {
 };
 
 export const getVillains = () => {
-    return database.villains.map(villain => ({...villain}))
-}
+  return database.villains.map((villain) => ({ ...villain }));
+};
